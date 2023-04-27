@@ -1,16 +1,16 @@
-const white = '#fffffa';
+const white = '#fcfaf0';
 // const black = '#593e2c';
 const faded = 'rgba(0, 0, 0, 0.1)';
-const ocGray0 = '#e2dcd8';
-// const ocGray1 = '#e2dcd8';
-const ocGray2 = '#c6bab3';
-const ocGray3 = '#c6bab3';
-const ocGray4 = '#aa998e';
-const ocGray5 = '#aa998e';
-const ocGray6 = '#8f796c';
-const ocGray7 = '#8f796c';
-const ocGray8 = '#745b4b';
-const ocGray9 = '#745b4b';
+const ocCoffee0 = '#e2dcd8';
+// const ocCoffee1 = '#e2dcd8';
+const ocCoffee2 = '#c6bab3';
+const ocCoffee3 = '#c6bab3';
+const ocCoffee4 = '#aa998e';
+const ocCoffee5 = '#aa998e';
+const ocCoffee6 = '#8f796c';
+const ocCoffee7 = '#745b4b';
+const ocCoffee8 = '#593e2c';
+const ocCoffee9 = '#593e2c';
 
 exports.decorateBrowserOptions = defaults => Object.assign({}, defaults, {
   titleBarStyle: '',
@@ -20,27 +20,27 @@ exports.decorateBrowserOptions = defaults => Object.assign({}, defaults, {
 
 exports.decorateConfig = config => Object.assign({}, config, {
   backgroundColor: white,
-  foregroundColor: ocGray7,
+  foregroundColor: ocCoffee7,
   selectionColor: faded,
   borderColor: white,
-  cursorColor: ocGray9,
+  cursorColor: ocCoffee9,
   colors: {
-    black: ocGray8,
-    red: ocGray7,
-    green: ocGray6,
-    yellow: ocGray5,
-    blue: ocGray9,
-    magenta: ocGray4,
-    cyan: ocGray3,
+    black: ocCoffee8,
+    red: ocCoffee7,
+    green: ocCoffee6,
+    yellow: ocCoffee5,
+    blue: ocCoffee9,
+    magenta: ocCoffee4,
+    cyan: ocCoffee3,
     white,
-    lightBlack: ocGray8,
-    lightRed: ocGray7,
-    lightGreen: ocGray6,
-    lightYellow: ocGray5,
-    lightBlue: ocGray9,
-    lightMagenta: ocGray4,
-    lightCyan: ocGray3,
-    lightWhite: ocGray0,
+    lightBlack: ocCoffee8,
+    lightRed: ocCoffee7,
+    lightGreen: ocCoffee6,
+    lightYellow: ocCoffee5,
+    lightBlue: ocCoffee9,
+    lightMagenta: ocCoffee4,
+    lightCyan: ocCoffee3,
+    lightWhite: ocCoffee0,
   },
   css: `
     ${config.css}
@@ -49,7 +49,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
     }
 
     .header_header {
-      color: ${ocGray9};
+      color: ${ocCoffee9};
     }
 
     .header_windowHeaderWithBorder {
@@ -57,12 +57,12 @@ exports.decorateConfig = config => Object.assign({}, config, {
     }
 
     .tabs_list {
-      border-bottom: 1px solid ${ocGray2};
+      border-bottom: 1px solid ${ocCoffee2};
       margin-left: 0;
     }
 
     .tabs_borderShim {
-      border-color: ${ocGray2} !important;
+      border-color: ${ocCoffee2} !important;
     }
 
     .tab_tab {
@@ -71,23 +71,23 @@ exports.decorateConfig = config => Object.assign({}, config, {
 
     .tab_tab.tab_active {
       background: ${white};
-      color: ${ocGray9};
+      color: ${ocCoffee9};
     }
 
     .tab_tab:not(.tab_active) {
-      background: ${ocGray0};
-      color: ${ocGray3};
+      background: ${ocCoffee0};
+      color: ${ocCoffee3};
     }
 
     .tab_tab:not(.tab_active):hover {
-      color: ${ocGray9};
+      color: ${ocCoffee9};
     }
 
     .tab_icon {
       top: 9px;
       width: 16px;
       height: 16px;
-      color: ${ocGray9};
+      color: ${ocCoffee9};
       border-radius: 3px;
       background-color: ${white};
     }
@@ -97,7 +97,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
       position: absolute;
       width: 100%;
       height: 100%;
-      background-color: ${ocGray7};
+      background-color: ${ocCoffee7};
       -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5IiBoZWlnaHQ9IjkiIHZpZXdCb3g9IjAgMCA5IDkiPjxwb2x5Z29uIGZpbGw9IiMwMDAwMDAiIGZpbGwtcnVsZT0iZXZlbm9kZCIgcG9pbnRzPSI0Ljk1IDQuMjQzIDguNDg1IC43MDcgNy43NzggMCA0LjI0MyAzLjUzNiAuNzA3IDAgMCAuNzA3IDMuNTM2IDQuMjQzIDAgNy43NzggLjcwNyA4LjQ4NSA0LjI0MyA0Ljk1IDcuNzc4IDguNDg1IDguNDg1IDcuNzc4Ii8+PC9zdmc+');
       -webkit-mask-repeat: no-repeat;
       -webkit-mask-size: 9px;
@@ -106,11 +106,11 @@ exports.decorateConfig = config => Object.assign({}, config, {
     }
 
     .tab_icon:hover {
-      background-color: ${ocGray2} !important;
+      background-color: ${ocCoffee2} !important;
     }
 
     .tab_icon:hover::before {
-      background-color: ${ocGray9};
+      background-color: ${ocCoffee9};
     }
 
     .tab_shape {
@@ -118,7 +118,7 @@ exports.decorateConfig = config => Object.assign({}, config, {
     }
 
     .splitpane_divider {
-      background-color: ${ocGray3} !important;
+      background-color: ${ocCoffee3} !important;
     }
   `,
 });
