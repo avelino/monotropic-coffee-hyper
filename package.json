@@ -1,0 +1,23 @@
+{
+  "name": "monotropic-coffee-hyper",
+  "version": "0.1.0",
+  "description": "monochrome theme with coffee-based colors",
+  "main": "index.js",
+  "repository": "https://github.com/avelino/monotropic-coffee-hyper",
+  "keywords": [
+    "monotropic",
+    "ui",
+    "coffee",
+    "brown",
+    "white",
+    "hyper",
+    "theme",
+    "monochrome"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": ""
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
