@@ -1,6 +1,6 @@
 # Monotropic Coffee theme for Hyper
 
-Monochrome theme with **coffee-based** colors for [Hyper](https://hyper.is).
+Monochrome theme with **coffee-based** colors for [Hyper](https://hyper.is), based in [Monotropic Coffee](https://github.com/avelino/monotropic-theme-vscode#monotropic-coffee).
 
 ![Monotropic Coffee Hyper Screenshot](assets/screenshot.png)
 
